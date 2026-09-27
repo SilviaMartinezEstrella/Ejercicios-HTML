@@ -6,38 +6,34 @@ article {
     border: 1px solid #b47a3c;
     background-color: #e7cdb4;
     width: 320px;
-    margin: 50px auto; /* 'auto' centra la tarjeta en el navegador ¿? */
+    margin: auto; /*auto centra la tarjeta*/
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 5px 5px 10px #232323; /* ejeX, ejeY, desenfoque, color */
-    
-    /* Centra todo el texto e imagen del interior */
-    text-align: center; 
+    box-shadow: 5px 5px 10px #232323; /*ejeX, ejeY, desenfoque, color*/
+    text-align: center; /*Pone todo en el centro*/
 }
 
 #img1 {
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    border: 5px solid #634e38; /* Grosor, estilo (sólido) y color */
+    border-radius: 50%; /*circular */
+    border: 5px solid #634e38; /*Grosor, estilo(sólido), color */
 }
 
 h2 {
-    font-family: "Brush Script MT", cursive; /* Fuente de letra */
-    color: #634e38;
-    font-size: 44px;
-    margin-top: -8px;
-    margin-bottom: -12px;
+    font-family: "Brush Script MT", cursive; /*Fuente*/
+    color: #634e38; /*Color*/
+    margin-top: -8px; /*espacio arriba*/
+    margin-bottom: -12px; /*espacio bajo*/
 }
 
 p {
-    font-family: "Courier New", Courier, monospace; /* Fuente de letra */
+    font-family: "Courier New", Courier, monospace; 
     color: #634e38;
-    font-size: 14px;
+    font-size: 14px; /*tamaño*/
 }
 
 h3 {
     margin-top: 16px;
     margin-bottom: -12px;
-    text-align: middle;
     font-size: 14px;
     color: #301a01;
 }
@@ -50,7 +46,7 @@ ul {
 
 li.GitHub {
   list-style-image: url('https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://brand.github.com&size=128');
-  width: 270px;
+  width: 270px; /*Espacio del lado izquierdo*/
 }
 
 li.LinkedIn {
