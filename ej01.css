@@ -6,7 +6,7 @@ article {
     border: 1px solid #b47a3c;
     background-color: #e7cdb4;
     width: 320px;
-    margin: auto; /*auto centra la tarjeta*/
+    margin: 50% auto; /*auto centra la tarjeta*/
     padding: 20px;
     border-radius: 12px;
     box-shadow: 5px 5px 10px #232323; /*ejeX, ejeY, desenfoque, color*/
