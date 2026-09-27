@@ -1,0 +1,71 @@
+body {
+    background-color: #ecddd4;
+}
+
+.menu {
+  display: flex;                  /*elementos de nav estén en línea*/
+  justify-content: space-between; /*el logo a la izquierda y los links a la derecha*/
+  align-items: center;            /*centra arriba y abajo los elementos*/
+  padding: 20px;                  /*espaciado arriba y abajo del menú*/
+  background-color: #db7d12; 
+}
+
+.links {
+  display: flex;        
+  gap: 20px;            /*espacio entre los elementos de la lista*/
+  list-style: none;     /*quita los puntos de la lista*/      
+}
+
+.links a {
+  text-decoration: none;
+  color: #000000;             
+  font-weight: bold;
+  position: relative;  /*posicion de la línea*/
+}
+
+.links a::after {
+  content: '';          /*crea un elemento transparente para la línea*/
+  position: absolute;
+  width: 0%;            /*inicia con ancho 0% y se extiende al pasar el mouse*/
+  height: 3px;          /*grosor de la línea*/
+  bottom: -5px;            /*arriba o abajo de la línea*/
+  left: 0;              /*desde donde sale la linea*/
+  background-color: #2973c2;
+}
+
+@keyframes extenderLinea {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+@keyframes cambiarColorTexto {
+  from { color: #000000; }
+  to   { color: #2973c2; }
+}
+
+
+.links a:hover {
+  animation-name: cambiarColorTexto;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.links a:hover::after {
+  animation-name: extenderLinea;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column; /* Cambia la alineación horizontal a vertical */
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: column; /* Coloca un enlace debajo de otro */
+  }
+
+}
