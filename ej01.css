@@ -1,0 +1,62 @@
+body {
+    background-color: #ecddd4;
+}
+
+article {
+    border: 1px solid #b47a3c;
+    background-color: #e7cdb4;
+    width: 320px;
+    margin: 50px auto; /* 'auto' centra la tarjeta en el navegador ¿? */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #232323; /* ejeX, ejeY, desenfoque, color */
+    
+    /* Centra todo el texto e imagen del interior */
+    text-align: center; 
+}
+
+#img1 {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 5px solid #634e38; /* Grosor, estilo (sólido) y color */
+}
+
+h2 {
+    font-family: "Brush Script MT", cursive; /* Fuente de letra */
+    color: #634e38;
+    font-size: 44px;
+    margin-top: -8px;
+    margin-bottom: -12px;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace; /* Fuente de letra */
+    color: #634e38;
+    font-size: 14px;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: -12px;
+    text-align: middle;
+    font-size: 14px;
+    color: #301a01;
+}
+
+ul {
+  margin-top: 0px;
+  padding: 20px;
+  list-style-position: inside; /*Estar pegado*/
+}
+
+li.GitHub {
+  list-style-image: url('https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://brand.github.com&size=128');
+  width: 270px;
+}
+
+li.LinkedIn {
+  list-style-image: url('https://files.softicons.com/download/social-media-icons/hexagonal-social-media-icons-by-design-bolts/png/36x36/Linkedin.png');
+}
+li.X {
+  list-style-image: url('https://www.shareicon.net/data/32x32/2015/05/03/32820_circle-x_32x32.png?utm_source=chatgpt.com');
+  width: 232px;
+}
