@@ -18,7 +18,7 @@ article {
     border: 5px solid #634e38; /*Grosor, estilo(sólido), color */
 }
 
-h2 {
+h1 {
     font-family: "Brush Script MT", cursive; /*Fuente*/
     color: #634e38; /*Color*/
     margin-top: -8px; /*espacio arriba*/
@@ -31,7 +31,7 @@ p {
     font-size: 14px; /*tamaño*/
 }
 
-h3 {
+h2 {
     margin-top: 16px;
     margin-bottom: -12px;
     font-size: 14px;
