@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ej05.css">
+    <title>Tarjeta de perfil</title>
+</head>
+    <body>
+        <form action="#" method="get">
+            <div class="imgcontainer">
+                <img src="https://img.freepik.com/iconos-gratis/usuario_318-437385.jpg" alt="usuario" class="usuario" width="150" height="150">
+            </div>
+
+            <div class="container">
+                <label for="nombre"><b>Usuario</b></label>
+                <input type="text" id="nombre" placeholder="Insertar nombre de usuario" name="nombre" required>
+
+                <label for="contrasena"><b>Contraseña</b></label>
+                <input type="password" id="contrasena" placeholder="Insertar contraseña" name="contrasena" minlength="8" required>
+
+                <label for="email"><b>Correo electrónico</b></label>
+                <input type="email" id="email" placeholder="Insertar correo electrónico" name="email" required>
+
+                <button type="submit">Enviar</button>
+                <label>
+                <input type="checkbox" checked="checked" name="recuerdame"> Recuerdame
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <span class="psw"><a href="https://support.google.com/accounts/answer/41078?hl=es-419&co=GENIE.Platform%3DDesktop">¿Olvidó su contraseña?</a></span>
+            </div>
+        </form>
+    </body>
+</html>
